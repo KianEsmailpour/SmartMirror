@@ -23,12 +23,6 @@ def findMin(a):
         if(i<min):
             min = i
     return min
-def count( b):
-    return b.__len__()
-    count = 0
-    for v in b:
-        count+=1
-    return count
 
 print("hello wotrld!")
 
@@ -54,5 +48,3 @@ printTable(20,5)
 # print(f"max = {max}")
 # min = findMin(a)
 # print(f"min = {min}")
-# c = count(a)
-# print(f"count = {a.__len__()}")
